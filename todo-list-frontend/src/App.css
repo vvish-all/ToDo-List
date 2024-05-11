@@ -1,0 +1,206 @@
+/* Light theme */
+.light-theme .app-container {
+  background-color: #f0f0f0; /* Light background */
+  color: #333; /* Dark text */
+  text-align: center;
+}
+
+.light-theme h1 {
+  color: #333; /* Dark text for headings */
+}
+
+.todo-actions {
+  margin-bottom: 20px;
+}
+
+.light-theme .todo-form h3 {
+  color: #555; /* Slightly darker text for subheadings */
+}
+
+.light-theme .todo-form input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 2px solid #4caf50; /* Bright green border for inputs */
+  border-radius: 6px;
+  background-color: #ffffff; /* White input background */
+  color: #333; /* Dark text in inputs */
+}
+
+.light-theme .todo-form button {
+  padding: 12px 18px;
+  cursor: pointer;
+  border: 2px solid #4caf50;
+  background-color: #4caf50; /* Bright green for buttons */
+  color: white;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.light-theme .todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 2px solid #ddd; /* Light border between items */
+  background-color: #ffffff; /* White background for items */
+}
+
+.light-theme .todo-item span {
+  flex-grow: 1;
+  color: #333; /* Dark text */
+}
+
+.light-theme .todo-item button {
+  padding: 2px;
+  border: 2px solid #f44336; /* Bright red for delete */
+  border-radius: 6px;
+  background-color: #f44336;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.light-theme .todo-item button:hover {
+  background-color: #e53935; /* Darker red on hover */
+}
+
+.light-theme .todo-item button[disabled] {
+  background-color: #333; /* Dark gray for disabled */
+  border: 2px solid #666; /* Darker border for disabled */
+  cursor: not-allowed;
+}
+
+.light-theme .dropdown {
+  padding: 2px;
+  border: 2px solid #4caf50; /* Green border for dropdown */
+  border-radius: 6px;
+  background-color: #ffffff; /* White background for dropdown */
+  color: #333; /* Dark text */
+  cursor: pointer;
+}
+
+.light-theme .todo-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 12px;
+  background-color: #f9f9f9; /* Light background for the wrapper */
+}
+
+.light-theme .todo-field {
+  border: 2px solid #ccc; /* Lighter borders for fields */
+  padding: 12px;
+  border-radius: 6px;
+  background-color: #ffffff; /* White background for fields */
+  color: #333; /* Dark text */
+}
+
+/* Dark theme */
+.dark-theme .app-container {
+  background-color: #121212; /* Very dark background */
+  color: #e0e0e0; /* Light gray text */
+  text-align: center;
+}
+
+.dark-theme h1 {
+  color: #ffffff; /* White text for headings */
+}
+
+.dark-theme .todo-form h3 {
+  color: #b0b0b0; /* Lighter gray text for subheadings */
+}
+
+.dark-theme .todo-form input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 2px solid #4caf50; /* Bright green border for inputs */
+  border-radius: 6px;
+  background-color: #222; /* Dark input background */
+  color: #e0e0e0; /* Light text in inputs */
+}
+
+.dark-theme .todo-form button {
+  padding: 12px 18px;
+  cursor: pointer;
+  border: 2px solid #4caf50;
+  background-color: #4caf50; /* Bright green for buttons */
+  color: white;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.dark-theme .todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 2px solid #333; /* Dark border between items */
+  background-color: #1e1e1e; /* Dark background for items */
+}
+
+.dark-theme .todo-item span {
+  flex-grow: 1;
+  color: #e0e0e0; /* Light text */
+}
+
+.dark-theme .todo-item button {
+  padding: 2px;
+  border: 2px solid #f44336; /* Bright red for delete */
+  border-radius: 6px;
+  background-color: #f44336;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.dark-theme .todo-item button:hover {
+  background-color: #e53935; /* Darker red on hover */
+}
+
+.dark-theme .todo-item button[disabled] {
+  background-color: #333; /* Dark gray for disabled */
+  border: 2px solid #666; /* Darker border for disabled */
+  cursor: not-allowed;
+}
+
+.dark-theme .dropdown {
+  padding: 2px;
+  border: 2px solid #4caf50; /* Green border for dropdown */
+  border-radius: 6px;
+  background-color: #222; /* Dark background for dropdown */
+  color: #e0e0e0; /* Light text */
+  cursor: pointer;
+}
+
+.dark-theme .todo-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 12px;
+  background-color: #1e1e1e; /* Dark background for the wrapper */
+}
+
+.dark-theme .todo-field {
+  border: 2px solid #666; /* Darker borders for fields */
+  padding: 12px;
+  border-radius: 6px;
+  background-color: #333; /* Dark background for fields */
+  color: #e0e0e0; /* Light text */
+}
+
+.add-form button:hover {
+  cursor: pointer;
+}
+
+.toggle-theme-button {
+  text-align: right;
+}
+.todo-item button:hover {
+  cursor: pointer;
+}
+
+.todo-formbutton :hover {
+  cursor: pointer;
+}
+
+.add-formbutton :hover {
+  cursor: pointer;
+}
